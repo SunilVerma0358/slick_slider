@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Nunito:wght@700;900&display=swap');
+:root {
+    /* font-size */
+    --fs-sm: 17px;
+    --fs-md: 18px;
+    --fs-lg: 24px;
+    --fs-xl: 44px;
+    /* font-family */
+    --ff-main: 'Nunito', sans-serif;
+    --ff-primery: 'Lora', serif;
+    /* font-weight */
+    --fw-normal: 400;
+    --fw-bold: 700;
+    --fw-bolder: 900;
+    /* color */
+    --color-yellow: #FACA10;
+    --color-yellow-light: #FDEA9F;
+    --color-black: #1E1E1E;
+    --color-gray: #F7F7F7;
+}
+
+
+/* font-family */
+
+.ff_main {
+    font-family: var(--ff-main);
+}
+
+.ff_primery {
+    font-family: var(--ff-primery);
+}
+
+
+/* font-size */
+
+.fs_sm {
+    font-size: var(--fs-sm);
+}
+
+.fs_md {
+    font-size: var(--fs-md);
+}
+
+.fs_lg {
+    font-size: var(--fs-lg);
+}
+
+.fs_xl {
+    font-size: var(--fs-xl);
+}
+
+
+/* color */
+
+.color_yellow {
+    color: var(--color-yellow);
+}
+
+.color_yellow_light {
+    color: var(--color-yellow-light);
+}
+
+.color_black {
+    color: var(--color-black);
+}
+
+
+/* font-weight */
+
+.fw_normal {
+    font-weight: var(--fw-normal);
+}
+
+.fw_bold {
+    font-weight: var(--fw-bold);
+}
+
+.fw_bolder {
+    font-weight: var(--fw-bolder);
+}
