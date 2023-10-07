@@ -1,10 +1,9 @@
 // preloader
 const preloader = document.getElementById("preloader")
 setTimeout(() => {
-        preloader.classList.add("d-none")
-        preloader.classList.add("pointer-event-none")
+        document.getElementById("preloder").classList.add("d-none");
         document.body.classList.remove("overflow-hidden")
-    }, 3000)
+    }, 2000)
     // slider
 $('.slider-for').slick({
     arrow: false,
