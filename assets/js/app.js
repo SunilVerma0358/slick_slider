@@ -48,6 +48,6 @@ $('.slider-nav').slick({
 
 $('a[data-slide]').click(function(e) {
     e.preventDefault();
-    var slideno = $(this).data('slide');
-    $('.slider-nav').slick('slickGoTo', slideno - 1);
+    var slide = $(this).data('slide');
+    $('.slider-nav').slick('slickGoTo', slide - 1);
 });
